@@ -3,11 +3,8 @@ import io
 import json
 import zipfile
 
-import xmltodict
 from lxml import etree
-from ipdb import set_trace as debugger
 
-from lib.xml2json import etree_to_dict
 from lib.utils import all_files, unzip
 
 DATA_DIR = os.path.join(os.getcwd(), 'data')
@@ -55,17 +52,6 @@ def _remove_namespaces(root_element):
 
     return transform(root_element)
 
-def elem2dict(node):
-    """
-    Convert an lxml.etree node tree into a dict.
-    """
-    d = {}
-    for e in node.iterchildren():
-        key = e.tag.split('}')[1] if '}' in e.tag else e.tag
-        value = e.text if e.text else elem2dict(e)
-        d[key] = value
-    return d
-
 def unzip_data():
     """
     Unzip newsgate zip export and exact data to DUMP_DIR
@@ -97,21 +83,15 @@ def transform_xml_to_json():
             subhed = dom.xpath('//head/p')
             byline = dom.xpath('//byline_name/descendant-or-self::*')
 
-            #  endnote_contact just has a bio so let's ignore that
-            # article = dom.xpath('//body/*[not(self::endnote_contact)]')
-            article = dom.xpath('//body/descendant::*/text()')
-
-            # create a list of sentences from the document where. We'll break
-            # on newlines and store the result in a dict
+            # art
+            article = dom.xpath('//body/p')
             content = {
                 "hed": jointext(hed),
                 'subhed': jointext(subhed),
                 'byline': jointext(byline),
-                'article': "".join([p.encode('utf-8') for p in article])\
-                    .strip().split('\n')
+                'article': [''.join([x.strip('\n').encode('utf-8')
+                for x in p.itertext()]).lstrip().rstrip() for p in article]
             }
-
-            debugger()
 
             output_json = json.dumps(content)
             filename = "{}.json".format(os.path.split(xmlfile.name)[1])
