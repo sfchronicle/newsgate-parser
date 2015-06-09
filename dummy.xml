@@ -1,0 +1,267 @@
+<?xml version="1.0"?>
+<CCIObjects category="CciApps" exporttime="2015-06-04T17:06:09" parameterset="NGExportSpooler" structure="Budget" systemid="ngx_ngio-pr" variant="ToOnline_SFC">
+  <object id="B88222388Z.1" kind="Budget">
+    <attributes>
+      <attribute group="NGBudgetPackage" kind="string" name="Id">B88222388Z.1</attribute>
+      <attribute group="NGBudgetPackage" kind="string" name="Product">Online_SFC</attribute>
+      <attribute group="NGBudgetPackage" kind="string" name="Path1">SFGate</attribute>
+      <attribute group="NGBudgetPackage" kind="string" name="Path2"/>
+      <attribute group="NGBudgetPackage" kind="string" name="Path3"/>
+      <attribute group="NGBudgetPackage" kind="string" name="Path4"/>
+      <attribute group="NGBudgetPackage" kind="string" name="Path5"/>
+      <attribute group="NGBudgetPackage" kind="integer" name="ProductRanking">2</attribute>
+      <attribute group="NGBudgetPackage" kind="boolean" name="AutoExport">true</attribute>
+      <attribute group="NGBudgetPackage" kind="string" name="PackageType">news</attribute>
+      <attribute group="NGBudgetPackage" kind="string" name="Path6"/>
+      <attribute group="NGBudgetPackage" kind="string" name="NewsRoomOwner">SFC</attribute>
+      <attribute group="NGBudgetPackage" kind="string" name="Name">leah0605.Online_SFC</attribute>
+      <attribute group="ExtraInfo" kind="string" name="State">Created</attribute>
+    </attributes>
+    <parents>
+      <object id="B6189955Z.1" kind="Story">
+        <attributes>
+          <attribute group="NGStory" kind="string" name="Name">leah0605</attribute>
+        </attributes>
+        <parents>
+          <object id="B58205Z.1" kind="Desk">
+            <attributes>
+              <attribute group="NGDesk" kind="string" name="Name">Datebook</attribute>
+            </attributes>
+          </object>
+        </parents>
+      </object>
+    </parents>
+    <children>
+      <object id="G6A8S4UC.1" kind="OnlineArticle">
+        <attributes>
+          <attribute group="Graph" kind="string" name="Name">onlinearticle.xml</attribute>
+        </attributes>
+        <content>
+          <data format="text/xml">
+            <CCIObjects>
+              <object id="#1559" kind="OnlineArticle">
+                <attributes>
+                  <attribute group="xml" name="Video text"/>
+                  <attribute group="xml" name="video URL"/>
+                  <attribute group="xml" name="video URLid"/>
+                  <attribute group="xml" name="video description"/>
+                  <attribute group="xml" name="video length"/>
+                  <attribute group="xml" name="video media type"/>
+                  <attribute group="xml" name="video title"/>
+                </attributes>
+                <content/>
+              </object>
+            </CCIObjects>
+          </data>
+        </content>
+      </object>
+      <object id="G6A8S4UB.25" kind="Text">
+        <attributes>
+          <attribute group="Graph" kind="string" name="Id">G6A8S4UB.25</attribute>
+          <attribute group="Graph" kind="string" name="Uid">6A8S4UB</attribute>
+          <attribute group="Graph" kind="string" name="IIM_SpecialInstr"/>
+          <attribute group="Graph" kind="boolean" name="NoArchive">false</attribute>
+          <attribute group="Graph" kind="boolean" name="NoExport">false</attribute>
+          <attribute group="Graph" kind="integer" name="ContextualUse">0</attribute>
+          <attribute group="Graph" kind="string" name="Name">leah0605</attribute>
+          <attribute group="Graph" kind="string" name="PubDateCont">2015 06 05</attribute>
+          <attribute group="Graph" kind="string" name="StoryID">89955Z</attribute>
+          <attribute group="Graph" kind="integer" name="ContentState">1450</attribute>
+          <attribute group="ExtraInfo" kind="string" name="State">Edited</attribute>
+          <attribute group="Graph" kind="xml" name="Metadata">
+            <content>
+              <data format="text/xml">
+                <metadata>
+                  <subjects>
+                    <subject>ART</subject>
+                  </subjects>
+                  <uncsubjects>
+                    <uncsubject>MODERNISM</uncsubject>
+                  </uncsubjects>
+                  <locations>
+                    <location precision="geocoder">
+                      <address>San Francisco Art Institute, 800 Chestnut Street, San Francisco, CA 94133, USA</address>
+                      <num/>
+                      <num_max/>
+                      <dir/>
+                      <street>San Francisco Art Institute</street>
+                      <street_type/>
+                      <post_dir/>
+                      <unit/>
+                      <city>San Francisco</city>
+                      <state>CA</state>
+                      <zip>94133</zip>
+                      <country>US</country>
+                      <lat>37.803376</lat>
+                      <lon>-122.417167</lon>
+                      <city_middle>0</city_middle>
+                      <street_middle>1</street_middle>
+                      <zip_middle>0</zip_middle>
+                    </location>
+                  </locations>
+                  <column>LEAH GARCHIK</column>
+                  <sendtype>MediaGrid/Vendors/NFB/Gate</sendtype>
+                  <sectioncode>DD</sectioncode>
+                  <gatelocs>
+                    <gateloc>ent.art</gateloc>
+                  </gatelocs>
+                  <premiumlen>INDEFINITE</premiumlen>
+                  <embargodatetime>2015-06-04T06:00:00-0700</embargodatetime>
+                </metadata>
+                <printinfo>
+                  <pubdate>20150605</pubdate>
+                  <product>Broadsheet_SFC</product>
+                  <pagename>Date_back</pagename>
+                  <edition>Advance1</edition>
+                  <zone>ALL</zone>
+                  <pageno>10</pageno>
+                  <sectionletter>E</sectionletter>
+                  <xpos>1414656</xpos>
+                  <ypos>141322</ypos>
+                </printinfo>
+                <online>
+                  <subjects>
+                    <subject>ART</subject>
+                    <subject>MODERNISM</subject>
+                  </subjects>
+                  <keywords>
+                    <keyword>sfgentart</keyword>
+                    <keyword>sfgent</keyword>
+                    <keyword>sfgembargosfg</keyword>
+                  </keywords>
+                  <contentChannel>entertainment/garchik</contentChannel>
+                  <noIndex>false</noIndex>
+                  <noRss>false</noRss>
+                  <noInlineLinking>false</noInlineLinking>
+                  <premiumEndDateTime>2030-01-01T00:00:00-0800</premiumEndDateTime>
+                  <entitlements>
+                    <entitlement>
+                      <sourceprovider>SFC</sourceprovider>
+                      <sourcedescription>StaffStory</sourcedescription>
+                    </entitlement>
+                  </entitlements>
+                </online>
+              </data>
+            </content>
+          </attribute>
+          <attribute group="Graph" kind="string" name="Copyright">(C) San Francisco Chronicle 2015</attribute>
+        </attributes>
+        <content>
+          <data format="text/xml">
+            <ccitext schemaLocation="urn:schemas-ccieurope.com cci.xsd">
+              <message class="element" displayname="message" name="message"/>
+              <mm_head class="element" displayname="mm_head" name="mm_head">
+                <p>Here’s your lipstick; welcome to the world of women, Caitlyn </p>
+              </mm_head>
+              <head class="element" displayname="head" name="head">
+                <p>Caitlyn takes on joys</p>
+                <p>and woes of womanhood</p>
+              </head>
+              <byline class="element" displayname="byline" name="byline">
+                <p>
+                  <byline_name class="character" displayname="byline_name" name="byline_name">By Leah Garchik</byline_name>
+                </p>
+              </byline>
+              <body class="element" displayname="body" name="body">
+                <p>
+                  <bold class="character" displayname="bold" name="bold">Joe Mac</bold>, who ponders the deep questions, is wondering if <bold class="character" displayname="bold" name="bold">Caitlyn Jenner </bold>gets paid less than when she was <bold class="character" displayname="bold" name="bold">Bruce</bold>. </p>
+                <p>
+                  <divider class="macro" displayname="divider" name="divider"/>
+                </p>
+                <p>This year’s Beach Blanket Babylon Scholarship for the Arts competition, on Monday night, highlighted the skills of nine high school students, competing in dance, acting and singing for $10,000 college scholarships. While the families and classmates there to cheer on their faves are taking their seats in the Club Fugazi, there’s a whole other party going on upstairs. </p>
+                <p>There, judges — <bold class="character" displayname="bold" name="bold">Michael Tilson Thomas</bold>, <bold class="character" displayname="bold" name="bold">David Gockley</bold>, <bold class="character" displayname="bold" name="bold">Jonathan Moscone</bold>, <bold class="character" displayname="bold" name="bold">Randall Kline</bold>, <bold class="character" displayname="bold" name="bold">Patrick Cassidy</bold>, <bold class="character" displayname="bold" name="bold">Gordon Getty</bold>, <bold class="character" displayname="bold" name="bold">Carey Perloff</bold>, <bold class="character" displayname="bold" name="bold">Tracy Chapman</bold>, <bold class="character" displayname="bold" name="bold">Paula West</bold>, <bold class="character" displayname="bold" name="bold">Jan Wahl</bold> and <bold class="character" displayname="bold" name="bold">Val Caniparoli </bold>— and longtime pals of <bold class="character" displayname="bold" name="bold">Jo Schuman Silver </bold>(including <bold class="character" displayname="bold" name="bold">Denise Hale</bold>, <bold class="character" displayname="bold" name="bold">Stanlee Gatti</bold>, <bold class="character" displayname="bold" name="bold">Charlotte</bold> and <bold class="character" displayname="bold" name="bold">George Shultz</bold>, <bold class="character" displayname="bold" name="bold">Fred Levin </bold>and <bold class="character" displayname="bold" name="bold">Nancy Livingston</bold>, <bold class="character" displayname="bold" name="bold">Dede Wilsey</bold>, <bold class="character" displayname="bold" name="bold">Jeannette Etheredge</bold>,<bold class="character" displayname="bold" name="bold"> Joshua Robison</bold>, <bold class="character" displayname="bold" name="bold">Matthew Goudeau</bold>, <bold class="character" displayname="bold" name="bold">Willie Brown</bold>, <bold class="character" displayname="bold" name="bold">Lucy Jewett</bold>) crowd into a smallish room for a pre-competition fiesta. They’re cultural movers and shakers, and they are used to sipping Champagne and nibbling on fancy hors d’oeuvres. But here, the food — pizza, falafel, deli platter — isn’t fancy, and the wine isn’t presented by sommeliers.</p>
+                <p>The competition always ends with the “Beach Blanket Babylon” cast leading a chorus of “San Francisco.” But I always think that this informal jammed-in gathering of those who have made San Francisco what it is, there to celebrate the dreams of youth, represents the real spirit of San Francisco.</p>
+                <p>
+                  <divider class="macro" displayname="divider" name="divider"/>
+                </p>
+                <p>•Standing in the SFO line to be processed by authorities on the way home from a recent trip, <bold class="character" displayname="bold" name="bold">Chuck Charlton </bold>noticed that a sign saying phone use was not permissible had a picture of a desktop phone with receiver. Isn’t that beside the point? (Charlton was tempted to take a picture of it, but that wouldn’t be permissible, either.)</p>
+                <p>
+                  <bold class="character" displayname="bold" name="bold">•Randy Alfred </bold>is wondering: “What happens if the Warriors win the NBA championship series on the same day the U.S. Supreme Court announces its same-sex-marriage decision? What if it’s Friday, June 19, the day of the City Hall Centennial party in Civic Center Plaza? Are we ready?”</p>
+                <p>
+                  <divider class="macro" displayname="divider" name="divider"/>
+                </p>
+                <p>The mood at Sunday’s memorial gathering at the San Francisco Art Institute for <bold class="character" displayname="bold" name="bold">Paule Anglim </bold>was wistful, but not melancholy. The founder of Gallery Paule Anglim died at 92 (it can be said now; the year of her birth was printed in the program), having spent her professional life surrounded by what she liked — art, artists and art lovers — and having enjoyed the respect and admiration of everyone who knew her. </p>
+                <p>The institute’s theater, cafe and courtyard were jammed with about 500 people, an overflowing crowd that included just about every prominent artist and curator in town. When Institute President <bold class="character" displayname="bold" name="bold">Charles Desmarais</bold> asked artists whose work she’d shown or supported over the years to stand up, the room was filled with responders.</p>
+                <p>The program included three speakers, two songs performed by <bold class="character" displayname="bold" name="bold">Terry Allen</bold>, and artist <bold class="character" displayname="bold" name="bold">Richard Shaw</bold>’s Family and Friends musical group playing in the courtyard. Artist <bold class="character" displayname="bold" name="bold">Katherine Sherwood</bold> described Anglim as a close friend, a cook and baker of Floating Island, at whose direction she had once spray-painted a pair of shoes red. Poet <bold class="character" displayname="bold" name="bold">Bill Berkson </bold>described her in the community of artists as “setting a standard ... always brisk and sometimes brusque.”</p>
+                <p>But it was gallery director <bold class="character" displayname="bold" name="bold">Ed Gilbert</bold>, who’d worked with Anglim for 27 years, who provided the deepest insights. Anglim, born and raised in French Canada, was “a tall skinny girl who was told by her family doctor to lie down after she ate. She needed to gain weight.” One reason for her love of San Francisco was its climate. She found hot weather intolerable, believing that “when it is cold, you can take control.” As to her manner of speaking, said Gilbert, “She seemed to like the strength of small phrases, and the weight they had, especially when delivered with finality.”</p>
+                <p>Despite Anglim’s no-nonsense manner, Gilbert recalled an occasion when he noticed she’d spent a lot of time talking to someone he knew she didn’t like. When he mentioned this to her, she responded, “‘We are also kind.’”</p>
+                <p>“We will remember Paule,” said Gilbert, “for her contributions to art and for her kindness.” </p>
+                <endnote_contact class="paragraph" displayname="endnote_contact" name="endnote_contact">
+                  <p>Open for business in San Francisco, (415) 777-8426. E-mail: <web class="character" displayname="web" href="mailto:lgarchik@sfchronicle.com" htxt="lgarchik@sfchronicle.com" name="web">lgarchik@sfchronicle.com</web> Twitter: @leahgarchik</p>
+                </endnote_contact>
+              </body>
+              <factbox class="element" displayname="factbox" name="factbox">
+                <header class="paragraph" displayname="header" name="header">
+                  <p>PUBLIC EAVESDROPPING</p>
+                </header>
+                <p>“The dude has to wear a coat and tie to work and sit in a cubicle. He can’t even drink beer at his desk.”</p>
+                <p>
+                  <quote_name class="character" displayname="quote_name" name="quote_name">Man to man, overheard on Valencia Street by Wayne Davis</quote_name>
+                </p>
+              </factbox>
+              <sig class="element" displayname="sig" name="sig">
+                <p>leah garchik</p>
+              </sig>
+            </ccitext>
+          </data>
+        </content>
+        <parents>
+          <object id="B64280694Z.1" kind="Assignment">
+            <attributes>
+              <attribute group="NGItemCollection" kind="dateTime" name="DeliveryTime">1969-12-31T18:00:00-06:00</attribute>
+              <attribute group="NGItemCollection" kind="integer" name="TaskType">1</attribute>
+              <attribute group="NGItemCollection" kind="string" name="Name">leah0605</attribute>
+            </attributes>
+            <children>
+              <object id="B19886Z.1" kind="User">
+                <attributes>
+                  <attribute group="CciUser" kind="string" name="Email">lgarchik@sfchronicle.com</attribute>
+                  <attribute group="CciUser" kind="string" name="FullName">Leah Garchik</attribute>
+                  <attribute group="CciUser" kind="string" name="Initials">lgarchik@sfchronicle.com</attribute>
+                  <attribute group="CciUser" kind="string" name="PhoneWork">415-777-8426</attribute>
+                  <attribute group="CciUser" kind="string" name="PhoneMobile">415-601-7307</attribute>
+                </attributes>
+              </object>
+            </children>
+          </object>
+        </parents>
+      </object>
+      <object id="GIB8UID0.1" kind="Image">
+        <attributes>
+          <attribute group="Graph" kind="string" name="Id">GIB8UID0.1</attribute>
+          <attribute group="Graph" kind="string" name="Uid">IB8UID0</attribute>
+          <attribute group="Graph" kind="string" name="IIM_Byline"/>
+          <attribute group="Graph" kind="string" name="IIM_Credit"/>
+          <attribute group="Graph" kind="string" name="IIM_Source"/>
+          <attribute group="Graph" kind="string" name="IIM_Caption"/>
+          <attribute group="Graph" kind="integer" name="ContextualUse">0</attribute>
+          <attribute group="Graph" kind="string" name="BL_Arc_ArchiveExternalId"/>
+          <attribute group="Graph" kind="string" name="Name">leah0605_ph</attribute>
+          <attribute group="Graph" kind="integer" name="ItemOrder">2</attribute>
+          <attribute group="Graph" kind="string" name="ExternalId"/>
+          <attribute group="Graph" kind="integer" name="ContentState">1600</attribute>
+          <attribute group="ExtraInfo" kind="string" name="State">Edited</attribute>
+          <attribute group="ExtraInfo" kind="string" name="CaptionText">
+Caitlyn Jenner on the cover of Vanity Fair.
+</attribute>
+          <attribute group="ExtraInfo" kind="string" name="CaptionByline"/>
+          <attribute group="ExtraInfo" kind="string" name="CaptionCredit">
+Annie Leibovitz / Vanity Fair
+</attribute>
+        </attributes>
+        <content>
+          <link format="image/jpeg" kind="" reference="B88222388Z.1_20150604170609_000+GIB8UID0.1-0.jpg"/>
+        </content>
+        <parents>
+          <object id="B64283958Z.1" kind="Assignment">
+            <attributes>
+              <attribute group="NGItemCollection" kind="dateTime" name="DeliveryTime">1969-12-31T18:00:00-06:00</attribute>
+              <attribute group="NGItemCollection" kind="integer" name="TaskType">0</attribute>
+              <attribute group="NGItemCollection" kind="string" name="Name">leah0605_ph</attribute>
+            </attributes>
+          </object>
+        </parents>
+      </object>
+    </children>
+  </object>
+</CCIObjects>
