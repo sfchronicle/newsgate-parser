@@ -23,7 +23,11 @@ $ mkdir data  # if it doesn't already exist
 $ mv /some/path/newsgate_story_dump.zip newsgate-parser/data
 $ python parse.py
 ```
-newsgate-parser uses the XML structure exported from NewsGate and does not support other CMSes at the moment. Create a `data` directory to house the .zip files. newsgate-parser will create `dump` and `build` directories where `dump` contains the raw XML file and `build` contains the transformed JSON file. Here's the resulting JSON structure:
+newsgate-parser uses the XML structure exported from NewsGate and does not support other CMSes at the moment. Create a `data` directory to house the .zip files. newsgate-parser will create `dump` and `build` directories where `dump` contains the raw XML file and `build` contains the transformed JSON file.
+
+### JSON Strcture
+
+Here's the resulting JSON structure:
 
 ```json
 {
@@ -36,6 +40,28 @@ newsgate-parser uses the XML structure exported from NewsGate and does not suppo
     "Hopefully you'll find this project to be helpful!"
   ]
 }
+```
+
+### Project Structure
+Here's an the project structure after transforming the XML data
+```
+newsgate-parser
+├── README.md
+├── build
+│   └── B88222388Z.1_20150604170609_000.xml.json
+├── data
+│   └── B88222388Z.1_20150604170609_000_lgarchik.zip
+├── dummy.xml
+├── dump
+│   ├── B88222388Z.1_20150604170609_000+GIB8UID0.1-0.jpg
+│   └── B88222388Z.1_20150604170609_000.xml
+├── lib
+│   ├── __init__.py
+│   ├── __init__.pyc
+│   ├── utils.py
+│   └── utils.pyc
+├── parse.py
+└── requirements.txt
 ```
 
 ## Contributing
